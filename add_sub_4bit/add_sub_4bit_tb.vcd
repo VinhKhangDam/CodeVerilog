@@ -1,0 +1,40 @@
+$date
+	Thu Mar  6 15:22:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module add_sub_4bit_tb $end
+$var wire 4 ! result [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$var reg 1 $ select $end
+$scope module as4 $end
+$var wire 4 % a [3:0] $end
+$var wire 4 & b [3:0] $end
+$var wire 1 $ select $end
+$var reg 4 ' result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1110 '
+b1 &
+b1101 %
+0$
+b1 #
+b1101 "
+b1110 !
+$end
+#10
+b1100 !
+b1100 '
+1$
+#20

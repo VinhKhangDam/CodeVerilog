@@ -1,0 +1,52 @@
+$date
+	Fri Mar  7 11:47:51 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module decoder2to4_tb $end
+$var wire 4 ! de2to4_result [3:0] $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$scope module dec2to4 $end
+$var wire 1 " a $end
+$var wire 1 $ an $end
+$var wire 1 # b $end
+$var wire 1 % bn $end
+$var wire 4 & de2to4_result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 &
+1%
+1$
+0#
+0"
+b1 !
+$end
+#10
+0%
+b10 !
+b10 &
+1#
+#20
+1%
+b100 !
+b100 &
+0$
+0#
+1"
+#30
+0%
+b1000 !
+b1000 &
+1#
+#40
